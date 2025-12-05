@@ -4,6 +4,7 @@ services:
     environment:
       EULA: "true"
       VERSION: "1.8.9"
+      USE_NATIVE_TRANSPORT: "true"
     ports:
       - "25565:25565"
     volumes:
@@ -14,4 +15,5 @@ services:
 volumes:
 
   data: {}
+
 
